@@ -79,4 +79,8 @@
         background: #202020;
         color: #bbb;
     }
+
+    .control.has-icons-left .input:focus ~ .icon {
+        color: #dcdcdc;
+    }
 }
