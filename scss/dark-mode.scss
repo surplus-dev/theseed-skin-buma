@@ -84,9 +84,15 @@
         color: #dcdcdc;
     }
 
-    .hero .hero-foot .tabs ul li.is-active a {
-        background: #414141;
-        border-color: #414141;
-        color: white !important;
+    .hero .hero-foot .tabs ul li.is-active {
+        &:hover a {
+            background: dimgray;
+            border-color: dimgray;
+        }
+        a {
+            background: #414141;
+            border-color: #414141;
+            color: white !important;
+        }
     }
 }
